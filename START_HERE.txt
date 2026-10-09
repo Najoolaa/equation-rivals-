@@ -1,0 +1,35 @@
+EQUATION RIVALS - START HERE
+============================
+
+You've got a complete two-player web game. It includes:
+* Artwork versus city-building missions
+* The same mathematical equation for both players
+* A choice of 9 targets per player
+* Simultaneous turns, private predictions and one-time blocking
+* Real-time updates and a rematch button
+* Game rules inside the website
+
+TO TRY IT ON YOUR COMPUTER
+1. Install Node.js 20 or newer, if you don't have it.
+2. Open a command prompt / terminal in this folder.
+3. Type: npm start
+4. In your browser, open http://localhost:3000
+5. Create a room as Player 1.
+6. Open an Incognito/Private browser window, go to the same address,
+   and join as Player 2 using the code from Player 1.
+
+TO PUT THE GAME ONLINE SO FRIENDS CAN PLAY FROM ANYWHERE
+1. Upload all of these files to a new GitHub repository.
+2. Open https://dashboard.render.com/ and create a Web Service
+   from that GitHub repo.
+3. Use Build Command: npm install
+   and Start Command: npm start
+4. Choose Free (demo) if available, then deploy.
+5. After Render deploys successfully, open your new onrender.com address.
+   Create a room and share the invitation link with another person.
+
+See README.md for all the rules, tests and limitations.
+
+IMPORTANT: The downloaded ZIP is NOT yet publicly hosted. You must deploy it to
+get a working public URL. The demo stores game rooms in memory, so a server
+restart can reset active games.

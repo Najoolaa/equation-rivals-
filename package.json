@@ -1,0 +1,8 @@
+{
+  "name": "equation-rivals",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Live multiplayer math, building, art and prediction strategy game",
+  "engines": {"node": ">=20"},
+  "scripts": {"start": "node server.js", "test": "node --test"}
+}
